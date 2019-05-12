@@ -1,0 +1,10 @@
+@import 'classes';
+
+// .tempBox1 {
+//     outline: 2px solid black;
+// }
+
+
+h1{
+    @extend .mainHeading;
+}

@@ -1,0 +1,8 @@
+@mixin bodyGradient() {
+    
+background: -webkit-linear-gradient(90deg, rgb(111, 159, 202), rgb(20, 55, 90));
+background: -o-linear-gradient(90deg, rgb(111, 159, 202), rgb(20, 55, 90));
+background: -moz-linear-gradient(90deg, rgb(111, 159, 202), rgb(20, 55, 90));
+background: linear-gradient(90deg, rgb(111, 159, 202), rgb(20, 55, 90));
+
+}

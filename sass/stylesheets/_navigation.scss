@@ -1,0 +1,16 @@
+@import 'classes';
+
+nav {
+    @extend .navigation;
+}
+
+ul {
+    @extend .navigationItems;
+
+    li  {
+        a {
+            @extend .navigationListItems;
+        }
+        
+    }
+}
