@@ -1,16 +1,40 @@
-@import 'classes';
 
-nav {
-    @extend .navigation;
+@import 'variables';
+
+.container {
+    width: 70%;
+    margin: 0 auto;
 }
 
-ul {
-    @extend .navigationItems;
+// classes for the nain heading
 
-    li  {
-        a {
-            @extend .navigationListItems;
-        }
-        
+.mainHeading {
+    font-size: 3.5em;
+    letter-spacing: 0.2em;
+}
+
+//classes for the menu
+.navigation {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%
+}
+
+    .navigationItems {
+        line-height: 2.5em;
+        font-size: 1.2em;
+        list-style: none;
     }
-}
+    .navigationItemsCategory {
+        border-bottom:$borderBottom;
+    }
+    .navigationListLinks {
+        text-decoration: none;
+    }
+
+
+
+
+
+

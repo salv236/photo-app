@@ -1,10 +1,12 @@
-@import 'classes';
+
 
 // .tempBox1 {
 //     outline: 2px solid black;
 // }
 
 
-h1{
-    @extend .mainHeading;
+.mainHeading{
+    font-size: 3.5em;
+    color: #fff;
+    letter-spacing: 0.25em;
 }

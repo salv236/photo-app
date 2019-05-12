@@ -1,7 +1,6 @@
 @import 'variables';
 @import 'mixins';
-@import 'heading';
-@import 'navigation';
+
 
 body {
     font-family: 'Stylish', sans-serif;
@@ -12,4 +11,7 @@ body {
 div {
     @extend .container;
 }
+
+@import 'heading';
+@import 'navigation';
 

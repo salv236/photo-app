@@ -1,47 +1,3 @@
-.container, div {
-  width: 70%;
-  margin: 0 auto; }
-
-.mainHeading, h1 {
-  font-size: 3.5em;
-  letter-spacing: 0.2em; }
-
-.navigation, nav {
-  position: fixed;
-  left: 0;
-  top: 0;
-  height: 100%; }
-
-.navigationItems, ul {
-  line-height: 2.5em;
-  font-size: 1.2em;
-  list-style: none; }
-
-.navigationListItems, ul li a {
-  text-decoration: none; }
-
-.container, div {
-  width: 70%;
-  margin: 0 auto; }
-
-.mainHeading, h1 {
-  font-size: 3.5em;
-  letter-spacing: 0.2em; }
-
-.navigation, nav {
-  position: fixed;
-  left: 0;
-  top: 0;
-  height: 100%; }
-
-.navigationItems, ul {
-  line-height: 2.5em;
-  font-size: 1.2em;
-  list-style: none; }
-
-.navigationListItems, ul li a {
-  text-decoration: none; }
-
 body {
   font-family: 'Stylish', sans-serif;
   color: #fff;
@@ -49,5 +5,35 @@ body {
   background: -o-linear-gradient(90deg, #6f9fca, #14375a);
   background: -moz-linear-gradient(90deg, #6f9fca, #14375a);
   background: linear-gradient(90deg, #6f9fca, #14375a); }
+
+.mainHeading {
+  font-size: 3.5em;
+  color: #fff;
+  letter-spacing: 0.25em; }
+
+.container, div {
+  width: 70%;
+  margin: 0 auto; }
+
+.mainHeading {
+  font-size: 3.5em;
+  letter-spacing: 0.2em; }
+
+.navigation {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%; }
+
+.navigationItems {
+  line-height: 2.5em;
+  font-size: 1.2em;
+  list-style: none; }
+
+.navigationItemsCategory {
+  border-bottom: 1px solid #fff; }
+
+.navigationListLinks {
+  text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */
