@@ -1,4 +1,9 @@
+.mainHeading, h1 {
+  font-size: 3.5em; }
+
 body {
-  background-color: #3E000C; }
+  background-color: #3E000C;
+  font-family: 'Stylish', sans-serif;
+  color: #fff; }
 
 /*# sourceMappingURL=style.css.map */

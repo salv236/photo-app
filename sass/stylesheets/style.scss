@@ -1,5 +1,8 @@
 @import 'variables';
+@import 'heading';
 
 body {
     background-color: $mainColor;
+    font-family: 'Stylish', sans-serif;
+    color: #fff;
 }
