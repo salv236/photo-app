@@ -1,8 +1,15 @@
 @import 'variables';
+@import 'mixins';
 @import 'heading';
+@import 'navigation';
 
 body {
-    background-color: $mainColor;
     font-family: 'Stylish', sans-serif;
     color: #fff;
+    @include bodyGradient();
 }
+
+div {
+    @extend .container;
+}
+
