@@ -8,10 +8,6 @@ body {
     @include bodyGradient();
 }
 
-div {
-    @extend .container;
-}
-
 @import 'grid';
 @import 'heading';
 @import 'navigation';
