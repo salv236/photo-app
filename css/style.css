@@ -11,18 +11,17 @@ body {
   grid-template-columns: repeat(4, 1fr);
   list-style: none; }
 
-.mainHeading {
+.wrapper {
+  margin-left: 3.25em;
+  color: #fff; }
+
+.wrapper-mainHeading {
   font-size: 3.5em;
-  color: #fff;
   letter-spacing: 0.25em; }
 
-.container, div {
+.container {
   width: 70%;
   margin: 0 auto; }
-
-.mainHeading {
-  font-size: 3.5em;
-  letter-spacing: 0.2em; }
 
 .navigation {
   position: fixed;
