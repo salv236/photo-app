@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAIA,IAAK;EACD,WAAW,EAAE,qBAAqB;EAClC,KAAK,EAAE,IAAI;ECJf,UAAU,EAAE,gDAAmE;EAC/E,UAAU,EAAE,2CAA8D;EAC1E,UAAU,EAAE,6CAAgE;EAC5E,UAAU,EAAE,wCAA2D;;ACLvE,KAAM;EACF,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,cAAc;EACrC,UAAU,EAAE,IAAI;;ACGpB,QAAS;EACL,WAAW,EAAE,MAAM;EACnB,KAAK,EAAE,IAAI;;AAGf,oBAAoB;EAChB,SAAS,EAAE,KAAK;EAChB,cAAc,EAAE,MAAM;;ACV1B,UAAW;EACP,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,MAAM;;AAIlB,WAAY;EACR,QAAQ,EAAE,KAAK;EACf,IAAI,EAAE,CAAC;EACP,GAAG,EAAE,CAAC;EACN,MAAM,EAAE,IAAI;;AAGZ,gBAAiB;EACb,WAAW,EAAE,KAAK;EAClB,SAAS,EAAE,KAAK;EAChB,UAAU,EAAE,IAAI;;AAEpB,wBAAyB;EACrB,aAAa,ECtBN,cAAc;;ADwBzB,oBAAqB;EACjB,eAAe,EAAE,IAAI",
-"sources": ["../sass/stylesheets/style.scss","../sass/stylesheets/_mixins.scss","../sass/stylesheets/_grid.scss","../sass/stylesheets/_heading.scss","../sass/stylesheets/_navigation.scss","../sass/stylesheets/_variables.scss"],
+"mappings": "AAIA,IAAK;EACD,WAAW,EAAE,qBAAqB;EAClC,KAAK,EAAE,IAAI;ECJf,UAAU,EAAE,gDAAmE;EAC/E,UAAU,EAAE,2CAA8D;EAC1E,UAAU,EAAE,6CAAgE;EAC5E,UAAU,EAAE,wCAA2D;;ACLvE,KAAM;EACF,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,cAAc;EACrC,UAAU,EAAE,IAAI;;ACGpB,QAAS;EACL,WAAW,EAAE,MAAM;EACnB,KAAK,EAAE,IAAI;;AAGf,oBAAoB;EAChB,SAAS,EAAE,KAAK;EAChB,cAAc,EAAE,MAAM;;ACV1B,UAAW;EACP,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,MAAM;;AAIlB,WAAY;EACR,QAAQ,EAAE,KAAK;EACf,IAAI,EAAE,CAAC;EACP,GAAG,EAAE,CAAC;EACN,MAAM,EAAE,IAAI;;AAGZ,gBAAiB;EACb,WAAW,EAAE,KAAK;EAClB,SAAS,EAAE,KAAK;EAChB,UAAU,EAAE,IAAI;;AAEpB,wBAAyB;EACrB,aAAa,ECtBN,cAAc;;ADwBzB,oBAAqB;EACjB,eAAe,EAAE,IAAI;;AEzB7B,YAAc;EACV,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,KAAK",
+"sources": ["../sass/stylesheets/style.scss","../sass/stylesheets/_mixins.scss","../sass/stylesheets/_grid.scss","../sass/stylesheets/_heading.scss","../sass/stylesheets/_navigation.scss","../sass/stylesheets/_variables.scss","../sass/stylesheets/_about.scss"],
 "names": [],
 "file": "style.css"
 }

@@ -40,4 +40,8 @@ body {
 .navigationListLinks {
   text-decoration: none; }
 
+.about-items {
+  line-height: 2em;
+  font-size: 1.2em; }
+
 /*# sourceMappingURL=style.css.map */
