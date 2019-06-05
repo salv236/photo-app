@@ -10,17 +10,15 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   list-style: none; }
-
-.wrapper {
-  margin-left: 3.25em;
-  color: #fff; }
+  .grid .grid-image {
+    max-width: 100%; }
 
 .wrapper-mainHeading {
   font-size: 3.5em;
   letter-spacing: 0.25em; }
 
 .container {
-  width: 70%;
+  max-width: 70%;
   margin: 0 auto; }
 
 .navigation {
