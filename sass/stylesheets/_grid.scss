@@ -4,11 +4,14 @@
     list-style: none;
 
     .grid-figure {
-       max-width: $WidthFull;
        @include transitionImages();
 }
 .grid-figure:hover {
     @include hoverImages();
+}
+
+.grid-image {
+    max-width: $WidthFull;
 }
        
 }
