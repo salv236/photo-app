@@ -3,7 +3,14 @@
     grid-template-columns: repeat(4, 1fr);
     list-style: none;
 
-    .grid-image {
-        max-width: $WidthFull;
-    }
+    .grid-figure {
+       max-width: $WidthFull;
+       @include transitionImages();
 }
+.grid-figure:hover {
+    @include hoverImages();
+}
+       
+}
+
+   
