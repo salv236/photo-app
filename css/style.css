@@ -38,28 +38,26 @@ body {
   left: 0;
   top: 0;
   height: 100%; }
-
-.navigationItems {
-  line-height: 2.5em;
-  font-size: 1.2em;
-  list-style: none; }
-
-.navigationItemsCategory {
-  border-bottom: 1px solid #fff;
-  transition: background 2s;
-  -webkit-transition: background 2s;
-  -moz-transition: background 2s;
-  -ms-transition: background 2s;
-  -o-transition: background 2s; }
-
-.navigationItemsCategory:hover {
-  background: #5f9ddb;
-  cursor: pointer;
-  transition-timing-function: ease-in; }
-
-.navigationListLinks {
-  text-decoration: none;
-  color: #fff; }
+  .navigation .navigationItems {
+    line-height: 2.5em;
+    font-size: 1.2em;
+    list-style: none; }
+  .navigation .navigationItemsCategory {
+    border-bottom: 1px solid #fff;
+    transition: background 2s;
+    -webkit-transition: background 2s;
+    -moz-transition: background 2s;
+    -ms-transition: background 2s;
+    -o-transition: background 2s; }
+  .navigation .navigationItemsCategory:hover, .navigation .active {
+    background: #5f9ddb;
+    cursor: pointer;
+    transition-timing-function: ease-in; }
+  .navigation .navigationListLinks {
+    text-decoration: none;
+    color: #fff; }
+  .navigation .active {
+    transition-timing-function: none; }
 
 .about-items {
   line-height: 2em;
