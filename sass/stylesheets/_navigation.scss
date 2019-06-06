@@ -21,9 +21,17 @@
     }
     .navigationItemsCategory {
         border-bottom:$borderBottom;
+        @include transitionBackground();
+}
+
+    .navigationItemsCategory:hover {
+        background: #14375a;
+        cursor: pointer;
+        transition-timing-function: ease-in;
     }
     .navigationListLinks {
         text-decoration: none;
+        color: $textColor;
     }
 
 

@@ -4,7 +4,7 @@
 
 body {
     font-family: 'Stylish', sans-serif;
-    color: #fff;
+    color: $textColor;
     @include bodyGradient();
 }
 

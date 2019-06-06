@@ -22,3 +22,11 @@ background: linear-gradient(90deg, rgb(111, 159, 202), rgb(20, 55, 90));
     -ms-transform:scale(1.5);
     -o-transform:scale(1.5);
 }
+
+@mixin transitionBackground(){
+    transition: background 2s;
+    -webkit-transition: background 2s;
+    -moz-transition: background 2s;
+    -ms-transition: background 2s;
+    -o-transition: background 2s;
+}

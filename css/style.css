@@ -45,10 +45,21 @@ body {
   list-style: none; }
 
 .navigationItemsCategory {
-  border-bottom: 1px solid #fff; }
+  border-bottom: 1px solid #fff;
+  transition: background 2s;
+  -webkit-transition: background 2s;
+  -moz-transition: background 2s;
+  -ms-transition: background 2s;
+  -o-transition: background 2s; }
+
+.navigationItemsCategory:hover {
+  background: #14375a;
+  cursor: pointer;
+  transition-timing-function: ease-in; }
 
 .navigationListLinks {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #fff; }
 
 .about-items {
   line-height: 2em;
