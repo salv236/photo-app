@@ -53,7 +53,7 @@ body {
   -o-transition: background 2s; }
 
 .navigationItemsCategory:hover {
-  background: #14375a;
+  background: #5f9ddb;
   cursor: pointer;
   transition-timing-function: ease-in; }
 
