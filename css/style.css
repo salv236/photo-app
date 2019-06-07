@@ -44,11 +44,11 @@ body {
     list-style: none; }
   .navigation .navigationItemsCategory {
     border-bottom: 1px solid #fff;
-    transition: background 2s;
-    -webkit-transition: background 2s;
-    -moz-transition: background 2s;
-    -ms-transition: background 2s;
-    -o-transition: background 2s; }
+    transition: background 1s;
+    -webkit-transition: background 1s;
+    -moz-transition: background 1s;
+    -ms-transition: background 1s;
+    -o-transition: background 1s; }
   .navigation .navigationItemsCategory:hover, .navigation .active {
     background: #5f9ddb;
     cursor: pointer;
