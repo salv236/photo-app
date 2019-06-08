@@ -7,10 +7,6 @@
         text-transform: uppercase;
         font-size: 3em;
         letter-spacing: 0.25em;
-
-        @include tablet-1070px {
-            font-size: 2.5em;
-        }
     }
 }
 
