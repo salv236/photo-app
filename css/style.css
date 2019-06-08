@@ -13,6 +13,9 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     list-style: none; }
+    @media screen and (max-width: 1023px) {
+      .grid .grid-items {
+        grid-template-columns: repeat(3, 1fr); } }
     .grid .grid-items .grid-items-figure {
       transition: all 2s;
       -webkit-transition: all 2s;
@@ -28,15 +31,21 @@ body {
   .grid .grid-items-image {
     max-width: 100%; }
 
-.wrapper, .grid-heading {
+.grid-heading {
   margin-left: 3.25em; }
-  .wrapper .wrapper-mainHeading, .grid-heading .wrapper-mainHeading {
+
+.wrapper {
+  margin-left: 4.5em; }
+  .wrapper .wrapper-mainHeading {
     text-transform: uppercase;
-    font-size: 3.5em;
+    font-size: 3em;
     letter-spacing: 0.25em; }
+    @media screen and (max-width: 1070px) {
+      .wrapper .wrapper-mainHeading {
+        font-size: 2.5em; } }
 
 .container {
-  max-width: 70%;
+  max-width: 75%;
   margin: 0 auto; }
 
 .navigation {
