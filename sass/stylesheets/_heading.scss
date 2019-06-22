@@ -1,12 +1,16 @@
 @import 'responsive';
 
 .wrapper {
-    margin-left: 4.5em;
+  margin-left: 4.5em;
 
-    .wrapper-mainHeading{
-        text-transform: uppercase;
-        font-size: 3em;
-        letter-spacing: 0.25em;
-    }
+  .wrapper-mainHeading {
+    text-transform: uppercase;
+    font-size: 3em;
+    letter-spacing: 0.25em;
+  }
 }
 
+.mainHeading,
+.wrapper-mainHeading {
+  @include transitionHeadingLeft();
+}

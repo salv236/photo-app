@@ -1,11 +1,10 @@
 @import 'variables';
 @import 'mixins';
 
-
 body {
-    font-family: 'Stylish', sans-serif;
-    color: $textColor;
-    @include bodyGradient();
+  font-family: 'Stylish', sans-serif;
+  color: $textColor;
+  @include bodyGradient();
 }
 
 @import 'grid';
@@ -13,4 +12,3 @@ body {
 @import 'navigation';
 @import 'about';
 @import 'responsive';
-

@@ -1,3 +1,29 @@
+@-webkit-keyframes bounceInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-2000px); }
+  60% {
+    opacity: 1;
+    -webkit-transform: translateX(30px); }
+  80% {
+    -webkit-transform: translateX(-10px); }
+  100% {
+    -webkit-transform: translateX(20px); } }
+@keyframes bounceInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-2000px); }
+  60% {
+    opacity: 1;
+    transform: translateX(30px); }
+  80% {
+    transform: translateX(-10px); }
+  100% {
+    transform: translateX(20px); } }
+.bounceInLeft {
+  -webkit-animation-name: bounceInLeft;
+  animation-name: bounceInLeft; }
+
 body {
   font-family: 'Stylish', sans-serif;
   color: #fff;
@@ -34,6 +60,13 @@ body {
     text-transform: uppercase;
     font-size: 3em;
     letter-spacing: 0.25em; }
+
+.mainHeading,
+.wrapper-mainHeading {
+  -webkit-animation-duration: 2;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; }
 
 .container {
   max-width: 75%;
