@@ -1,0 +1,30 @@
+@import 'responsive';
+
+.grid {
+    display: grid;
+    grid-row-gap: 2em;
+    
+
+    .grid-items {
+        display: grid;
+        grid-template-columns: repeat( auto-fill, minmax(250px, 1fr) );
+        list-style: none;
+
+        .grid-items-figure {
+            @include transitionImages();
+     }
+     .grid-items-figure:hover {
+        @include hoverImages();
+    }
+    }
+    
+    .grid-items-image {
+        max-width: $WidthFull;
+    }
+}
+
+
+
+       
+
+   

@@ -1,0 +1,49 @@
+
+@import 'variables';
+@import 'responsive';
+
+.container {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+//classes for the menu
+.navigation {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+
+    .navigationItems {
+        line-height: 2.5em;
+        font-size: 1.2em;
+        list-style: none;
+    }
+    .navigationItemsCategory {
+        border-bottom:$borderBottom;
+        @include transitionBackground();
+}
+
+    .navigationItemsCategory:hover {
+        background: lighten($bgColorGradientDarkest, 40%);
+        cursor: pointer;
+        transition-timing-function: ease-in;
+    }
+    .navigationListLinks {
+        text-decoration: none;
+        color: $textColor;
+    }
+
+    .active {
+        @extend  .navigationItemsCategory:hover; 
+        transition-timing-function: none;
+    }
+}
+
+   
+
+
+
+
+
+
