@@ -38,6 +38,7 @@ body {
   .grid .grid-items {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-row-gap: 2.5em;
     list-style: none; }
     .grid .grid-items .grid-items-figure {
       transition: all 2s;
@@ -58,10 +59,11 @@ body {
   margin-left: 4.5em; }
   .wrapper .wrapper-mainHeading {
     text-transform: uppercase;
-    font-size: 3em;
+    font-size: 2.5em;
     letter-spacing: 0.25em; }
+  .wrapper .wrapperParaBottomGap {
+    margin-bottom: 3.25em; }
 
-.mainHeading,
 .wrapper-mainHeading {
   -webkit-animation-duration: 2;
   animation-duration: 2s;
@@ -98,8 +100,12 @@ body {
   .navigation .active {
     transition-timing-function: none; }
 
-.about-items {
-  line-height: 2em;
-  font-size: 1.2em; }
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .about-wrapper .about-items {
+    line-height: 2em;
+    font-size: 1.2em; }
 
 /*# sourceMappingURL=style.css.map */
