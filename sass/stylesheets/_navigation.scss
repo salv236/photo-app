@@ -1,49 +1,66 @@
-
 @import 'variables';
 @import 'responsive';
 
 .container {
-    max-width: 75%;
-    margin: 0 auto;
+  max-width: 100%;
+  width: 75%;
+  margin: 0 auto;
+  @include breakpoint-1200px {
+    width: 85%;
+  }
 }
 
 //classes for the menu
 .navigation {
-    position: fixed;
-    left: 0;
-    top: 0;
-    height: 100%;
+  position: fixed;
+  left: -2em;
+  top: 0;
+  height: 100%;
 
-    .navigationItems {
-        line-height: 2.5em;
-        font-size: 1.2em;
-        list-style: none;
+  .fa-bars {
+    display: none;
+  }
+
+  .navigationItems {
+    line-height: 2.5em;
+    font-size: 1.2em;
+    list-style: none;
+    @include breakpoint-1100px {
+      font-size: 1em;
     }
-    .navigationItemsCategory {
-        border-bottom:$borderBottom;
-        @include transitionBackground();
+    @include breakpoint-850px {
+      font-size: 0.9em;
+    }
+    @include breakpoint-640px {
+      display: none;
+    }
+  }
+  .navigationItemsCategory {
+    border-bottom: $borderBottom;
+    @include transitionBackground();
+  }
+
+  .navigationItemsCategory:hover {
+    background: lighten($bgColorGradientDarkest, 40%);
+    cursor: pointer;
+    transition-timing-function: ease-in;
+  }
+  .navigationListLinks {
+    text-decoration: none;
+    color: $textColor;
+  }
+
+  .active {
+    @extend .navigationItemsCategory:hover;
+    transition-timing-function: none;
+  }
 }
 
-    .navigationItemsCategory:hover {
-        background: lighten($bgColorGradientDarkest, 40%);
-        cursor: pointer;
-        transition-timing-function: ease-in;
-    }
-    .navigationListLinks {
-        text-decoration: none;
-        color: $textColor;
-    }
-
-    .active {
-        @extend  .navigationItemsCategory:hover; 
-        transition-timing-function: none;
-    }
+.fa-bars {
+  @include breakpoint-640px {
+    display: flex;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 0.5em;
+  }
 }
-
-   
-
-
-
-
-
-

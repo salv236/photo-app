@@ -57,12 +57,29 @@ body {
 
 .wrapper {
   margin-left: 4.5em; }
+  @media screen and (max-width: 1100px) {
+    .wrapper {
+      display: flex;
+      flex-direction: column; } }
   .wrapper .wrapper-mainHeading {
     text-transform: uppercase;
     font-size: 2.5em;
     letter-spacing: 0.25em; }
+    @media screen and (max-width: 1048px) {
+      .wrapper .wrapper-mainHeading {
+        font-size: 2em; } }
+    @media screen and (max-width: 850px) {
+      .wrapper .wrapper-mainHeading {
+        font-size: 1.75em; } }
   .wrapper .wrapperParaBottomGap {
-    margin-bottom: 3.25em; }
+    margin-bottom: 3.25em;
+    font-size: 1.2em; }
+    @media screen and (max-width: 1048px) {
+      .wrapper .wrapperParaBottomGap {
+        font-size: 1.1em; } }
+    @media screen and (max-width: 850px) {
+      .wrapper .wrapperParaBottomGap {
+        font-size: 1em; } }
 
 .wrapper-mainHeading {
   -webkit-animation-duration: 2;
@@ -71,18 +88,33 @@ body {
   animation-fill-mode: both; }
 
 .container {
-  max-width: 75%;
+  max-width: 100%;
+  width: 75%;
   margin: 0 auto; }
+  @media screen and (max-width: 1200px) {
+    .container {
+      width: 85%; } }
 
 .navigation {
   position: fixed;
-  left: 0;
+  left: -2em;
   top: 0;
   height: 100%; }
+  .navigation .fa-bars {
+    display: none; }
   .navigation .navigationItems {
     line-height: 2.5em;
     font-size: 1.2em;
     list-style: none; }
+    @media screen and (max-width: 1100px) {
+      .navigation .navigationItems {
+        font-size: 1em; } }
+    @media screen and (max-width: 850px) {
+      .navigation .navigationItems {
+        font-size: 0.9em; } }
+    @media screen and (max-width: 640px) {
+      .navigation .navigationItems {
+        display: none; } }
   .navigation .navigationItemsCategory {
     border-bottom: 1px solid #fff;
     transition: background 1s;
@@ -99,6 +131,13 @@ body {
     color: #fff; }
   .navigation .active {
     transition-timing-function: none; }
+
+@media screen and (max-width: 640px) {
+  .fa-bars {
+    display: flex;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 0.5em; } }
 
 .about-wrapper {
   display: flex;
